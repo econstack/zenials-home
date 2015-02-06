@@ -3,7 +3,7 @@
 /* =====================================================
  * change $email_to and $email_form
  * ===================================================== */
-$email_to = "info@zenials.com"; // the email address to which the form sends submissions
+$email_to = "ron@zenials.com"; // the email address to which the form sends submissions
 $email_from = "do-not-reply@zenials.com"; // the email address used as "From" when submissions are sent to the $email_to above (important that it has the same domain as the domain of your site - unless you have configured your server's mail settings)
 $email_subject = "Contact Form submitted";
 
@@ -50,7 +50,7 @@ if(isset($_POST['email']))
         $error_message .= ($error_message == "") ? $this_error : "<br/>".$this_error;
     }        
 
-    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+    $email_exp = '/^[A-Za-z0-9._%-+]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
     if (!preg_match($email_exp,$email))
     {
         $this_error = 'Please enter a valid email address.';
