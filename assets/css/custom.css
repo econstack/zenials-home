@@ -5,12 +5,14 @@
 
 .btn-xlarge {
     padding: 38px 52px;
-    font-size: 30px;
+    font-size: 1.5em;
     -webkit-border-radius: 2px;
        -moz-border-radius: 2px;
             border-radius: 2px;
     }
 
  .signup {
- 	padding: 80px 150px 0px 0px;
+ 	font-size: 1.0em;
+ 	padding-top: 50px;
+ 	padding-right: 50px;
  }
