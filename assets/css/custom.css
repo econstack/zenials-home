@@ -1,6 +1,7 @@
 /* It is recommended to place all your extra/additional CSS rules here */
 .contact-details {
-	padding-right: 100px;
+	padding-right: 50px;
+	padding-bottom: 50px;
 }
 
 .btn-xlarge {
@@ -11,8 +12,8 @@
             border-radius: 2px;
     }
 
- .signup {
- 	font-size: 1.0em;
- 	padding-top: 50px;
- 	padding-right: 50px;
+ .signup-block {
+ 	font-size: 1.25em;
+ 	padding-top: 60px;
+ 	text-align: center;
  }
